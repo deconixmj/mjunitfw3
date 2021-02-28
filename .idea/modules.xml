@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/Seleniumcls1mj/.idea/Seleniumcls1mj.iml" filepath="D:/Seleniumcls1mj/.idea/Seleniumcls1mj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mjunitfw3_testsuite_nose.iml" filepath="$PROJECT_DIR$/.idea/mjunitfw3_testsuite_nose.iml" />
+      <module fileurl="file://D:/mjunittest1/.idea/mjunittest1.iml" filepath="D:/mjunittest1/.idea/mjunittest1.iml" />
+    </modules>
+  </component>
+</project>

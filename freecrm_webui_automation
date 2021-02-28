@@ -1,0 +1,5 @@
+python selenium
+unittest
+parallel execution- pytest/nosetests
+selenium-grid ..browserstack.com
+reporting --unttest/pytest
