@@ -63,6 +63,7 @@ class DealsLocators:
     dealslabel = (By.XPATH, '//div[text()="Deals"]')
     dealsnew=(By.XPATH,'//button[text()="New"]')
     title1=(By.NAME,'title')
+    # stage1=(By.XPATH,"(//div[@name='stage'][1])[1]")
     stageL=(By.NAME,'stage')
     statusL=(By.NAME,'status')
     public_toggle=(By.XPATH,'//button[text()="Public"]')

@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="909a8b1f-86cc-4834-915a-bc9ef74c290c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/wthoutpom/deals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../amzn_testcases/.idea/amzn_testcases.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../amzn_testcases/.idea/amzn_testcases.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../amzn_testcases/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../amzn_testcases/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../amzn_testcases/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../amzn_testcases/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../amzn_testcases/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../amzn_testcases/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Locators/Locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Locators/Locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/BasePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/DealsPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/DealsPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/HomePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenarios_TCs/test_CreateNewContact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenarios_TCs/test_CreateNewContact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test-suites/testsuite1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test-suites/testsuite1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenarios_TCs/test_DealsPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenarios_TCs/test_DealsPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testdata/json/TitleVerification.log" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/json/TitleVerification.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testdata/json/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/json/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testdata/readdata1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/readdata1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freecrm_webui_automation" beforeDir="false" afterPath="$PROJECT_DIR$/freecrm_webui_automation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wthoutpom/f1.py" beforeDir="false" afterPath="$PROJECT_DIR$/wthoutpom/f1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wthoutpom/getitem1.py" beforeDir="false" afterPath="$PROJECT_DIR$/wthoutpom/getitem1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wthoutpom/listin.py" beforeDir="false" afterPath="$PROJECT_DIR$/wthoutpom/listin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wthoutpom/toggle_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/wthoutpom/toggle_button.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mjunittest1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mjunittest1/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mjunittest1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mjunittest1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mjunittest1/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/../mjunittest1/Notes" afterDir="false" />
@@ -34,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomePage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomePage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="289">
               <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -50,8 +43,8 @@
       <file leaf-file-name="Locator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Locators/Locator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="306">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -65,56 +58,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wthoutpom/listin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testsuite1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test-suites/testsuite1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactsPage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/ContactsPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_DealsPage.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_DealsPage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scenarios_TCs/test_DealsPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="325">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#1756#1816#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readdata1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testdata/readdata1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -135,11 +87,48 @@
       <file leaf-file-name="DealsPage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/DealsPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="1275">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
                 <element signature="e#1133#1156#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deals.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wthoutpom/deals.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#1219#1268#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newcontact_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wthoutpom/newcontact_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toggle_button.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wthoutpom/toggle_button.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" selection-end-line="50" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,14 +172,16 @@
         <option value="$PROJECT_DIR$/wthoutpom/toggle_button.py" />
         <option value="$PROJECT_DIR$/Scenarios_TCs/test_CreateNewContact.py" />
         <option value="$PROJECT_DIR$/wthoutpom/getitem1.py" />
-        <option value="$PROJECT_DIR$/Locators/Locator.py" />
         <option value="$PROJECT_DIR$/wthoutpom/listin.py" />
         <option value="$PROJECT_DIR$/Pages/BasePage.py" />
         <option value="$PROJECT_DIR$/Pages/HomePage.py" />
         <option value="$PROJECT_DIR$/wthoutpom/f1.py" />
         <option value="$PROJECT_DIR$/Testdata/readdata1.py" />
-        <option value="$PROJECT_DIR$/Scenarios_TCs/test_DealsPage.py" />
+        <option value="$PROJECT_DIR$/wthoutpom/dealspage.py" />
+        <option value="$PROJECT_DIR$/wthoutpom/deals.py" />
+        <option value="$PROJECT_DIR$/Locators/Locator.py" />
         <option value="$PROJECT_DIR$/Pages/DealsPage.py" />
+        <option value="$PROJECT_DIR$/Scenarios_TCs/test_DealsPage.py" />
       </list>
     </option>
   </component>
@@ -227,7 +218,7 @@
             <path>
               <item name="mjunitfw3_testsuite_nose" type="b2602c69:ProjectViewProjectNode" />
               <item name="mjunitfw3_testsuite_nose" type="462c0819:PsiDirectoryNode" />
-              <item name="Testdata" type="462c0819:PsiDirectoryNode" />
+              <item name="wthoutpom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,6 +243,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in test_DealsPage.py">
+    <configuration name="deals" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mjunitfw3_testsuite_nose" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wthoutpom" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wthoutpom/deals.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="f1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mjunitfw3_testsuite_nose" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,24 +310,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wthoutpom/listin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="readdata1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mjunitfw3_testsuite_nose" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testdata" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testdata/readdata1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,19 +397,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.readdata1" />
       <item itemvalue="Python tests.Unittests in test_DealsPage.py" />
       <item itemvalue="Python.getitem1" />
       <item itemvalue="Python.listin" />
       <item itemvalue="Python.f1" />
+      <item itemvalue="Python.deals" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in test_DealsPage.py" />
+        <item itemvalue="Python.deals" />
         <item itemvalue="Python.f1" />
         <item itemvalue="Python.listin" />
         <item itemvalue="Python.getitem1" />
-        <item itemvalue="Python.readdata1" />
       </list>
     </recent_temporary>
   </component>
@@ -436,27 +427,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.08 at 23h 39m 44s.xml">
-      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.08 at 23h 41m 45s.xml">
-      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.08 at 23h 44m 03s.xml">
-      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.08 at 23h 49m 20s.xml">
-      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 00h 01m 34s.xml">
-      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 00h 03m 29s.xml">
-      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 00h 06m 20s.xml">
-      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 00h 10m 28s.xml">
       <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
     </history-entry>
@@ -466,20 +436,41 @@
     <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 00h 31m 03s.xml">
       <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 08h 50m 27s.xml">
+      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 19h 54m 13s.xml">
+      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 20h 08m 15s.xml">
+      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 20h 45m 16s.xml">
+      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 20h 47m 59s.xml">
+      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 20h 54m 24s.xml">
+      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_DealsPage_py - 2021.03.09 at 21h 10m 10s.xml">
+      <configuration name="Unittests in test_DealsPage.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24925596" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24925596" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50074404" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49925596" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49925596" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32838285" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32838285" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39933994" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -551,7 +542,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/mjunittest1/Pages/HomePage.py" />
     <entry file="file://D:/mjunittest1/Pages/BasePage.py" />
     <entry file="file://D:/mjunittest1/Scenarios/NewUserRegistration.py" />
     <entry file="file://D:/mjunittest1/Scenarios/UserLogin.py" />
@@ -677,16 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wthoutpom/newcontact_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/freecrm_webui_automation">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -698,16 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wthoutpom/toggle_button.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="82" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -768,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Locators/Locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wthoutpom/listin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -799,17 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/BasePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#379#396#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wthoutpom/f1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -827,6 +779,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#379#396#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wthoutpom/newcontact_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wthoutpom/toggle_button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locators/Locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wthoutpom/deals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#1219#1268#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Testdata/readdata1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -834,20 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scenarios_TCs/test_DealsPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/DealsPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="1275">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
             <element signature="e#1133#1156#0" />
@@ -857,11 +848,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="289">
           <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
             <element signature="e#1021#1043#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scenarios_TCs/test_DealsPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#1756#1816#0" />
           </folding>
         </state>
       </provider>

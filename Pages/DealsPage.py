@@ -38,26 +38,41 @@ class DealsPage:
 
         # Y=1080
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-        s1=self.driver.find_element(*DealsLocators.stageL)
-        print(s1)
-        for i in s1:
-            if stage in i:
-                self.driver.i.click()
+        s1=self.driver.find_elements(*DealsLocators.stageL)
+        s1[0].click()
+        # self.driver.find_element(*DealsLocators.stage1).click()
+        # self.driver.
+        # print(s1)
+        for i in range(len(s1)):
+            if s1[i].text==stage:
+                s1[i].click()
+                break
+
+
         # s2=Select(s1)
         # s2.select_by_visible_text(stage)
-        # st1=self.driver.find_element(*DealsLocators.statusL)
+        st1=self.driver.find_elements(*DealsLocators.statusL)
+        st1[0].click()
+        for i in range(len(st1)):
+            if st1[i].text==status:
+                st1[i].click()
+                break
+
         # st2=Select(st1)
         # st2.select_by_visible_text(status)
         # self.driver.find_element(*DealsLocators.public_toggle).click()
+
+
         time.sleep(3)
-        st1 = self.driver.find_element_by_xpath('//i[@class="lock icon"]').get_attribute('class')
+        # st3 = self.driver.find_element_by_xpath('//i[@class="lock icon"]').get_attribute('class')
 
         self.driver.find_element(*DealsLocators.save).click()
+        time.sleep(3)
 
         #creating xpath locator value using format specifier
         t_xpath='//div[text()="{}"]'.format(title)
         t=self.driver.find_element_by_xpath(t_xpath)
-        return st1,t
+        return t
 
 
 

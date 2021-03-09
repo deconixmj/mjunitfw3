@@ -37,15 +37,14 @@ class TestDealsPage(unittest.TestCase):
         # cls.contact = ContactsPage(cls.base.driver)
 
     def setUp(self):
-        pass
+        icon = "money"
+        self.home.click_icons(icon)
+        time.sleep(15)
 
         # self.base.driver.implicitly_wait(10)
 
 
     def test_a_validateDealslabel(self):
-        icon="money"
-        self.home.click_icons(icon)
-        time.sleep(15)
 
         t=self.deals.verify_dealspagelabel()
         self.assertEqual(t,"Deals","You are not in deals Page")
@@ -57,14 +56,14 @@ class TestDealsPage(unittest.TestCase):
         # a1=L[1]
         # a2=L[3]
         print(a0,a1,a2)
-        st2,t=self.deals.validate_newdeal(a0,a1,a2)
+        t=self.deals.validate_newdeal(a0,a1,a2)
         time.sleep(3)
         # self.base.driver.find_element_by_xpath('//div[text()=a0]')
-        try:
-            self.assertEqual(st2,'lock icon','Toggle switch did not work')
-            logging.info("toggle switch pass: {}".format(st2))
-        except AssertionError:
-            logging.error("toggle switch failed: {}".format(st2))
+        # try:
+        #     self.assertEqual(st2,'lock icon','Toggle switch did not work')
+        #     logging.info("toggle switch pass: {}".format(st2))
+        # except AssertionError:
+        #     logging.error("toggle switch failed: {}".format(st2))
 
         try:
             self.assertEqual(t,a0,'your deal creation page did not work')
