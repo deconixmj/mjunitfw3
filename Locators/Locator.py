@@ -1,15 +1,28 @@
 from selenium.webdriver.common.by import By
 
 class HomePageLocators:
-    #SIGNUP=(By.LINK_TEXT,'sign up')
-    SIGNUP=(By.XPATH,'(//a[@href="https://register.freecrm.com/register/"])')
-    SIGNIN=(By.XPATH,"(//span[contains(text(),'Log In')])")
+
+    SIGNUP = (By.XPATH, '(//a[@href="https://register.freecrm.com/register/"])')
+    SIGNIN = (By.XPATH, "(//span[contains(text(),'Log In')])")
     loggedintext = (By.XPATH, "(//span[contains(text(),'Mj P')])")
-    crmlogo=None
-    Calendaricon=(By.XPATH,'//i[@xpath=1]')
-    Contactsicon=(By.XPATH,'//i[@class="users icon"]')
-    contactsmenuitem=(By.XPATH,'//span[contains(text(),"Contacts")]')
-    contactslabel=(By.XPATH,'//div[text()="Contacts"]')
+    crmlogo = None
+    Calendaricon = (By.XPATH, '//i[@class="calendar icon"]')
+    Contactsicon = (By.XPATH, '//i[@class="users icon"]')
+    contactsmenuitem = (By.XPATH, '//span[contains(text(),"Contacts")]')
+    contactslabel = (By.XPATH, '//div[text()="Contacts"]')
+    Dealsicon = (By.XPATH, '//i[@class="money icon"]')
+    Companiesicon = (By.XPATH, '//i[@class="building icon"]')
+    Taskicon = (By.XPATH, '//i[@class="tasks icon"]')
+    iconlist = [Contactsicon, Dealsicon, Calendaricon, Companiesicon, Taskicon]
+
+    # def __init__(self):
+    #     self.iconlist = iconlist
+    #
+    # def __getitem__(self, item):
+    #     return self.iconlist[item]
+
+    #SIGNUP=(By.LINK_TEXT,'sign up')
+
 
 
 class SignUPLocators:
@@ -33,6 +46,7 @@ class CalendarLocators:
     pass
 
 class ContactsLocators:
+
     contactnew=(By.XPATH,'//button[text()="New"]')
     fname=(By.NAME,'first_name')
     lname=(By.NAME,'last_name')
@@ -45,7 +59,16 @@ class CompaniesLocators:
     pass
 
 class DealsLocators:
-    pass
+
+    dealslabel = (By.XPATH, '//div[text()="Deals"]')
+    dealsnew=(By.XPATH,'//button[text()="New"]')
+    title1=(By.NAME,'title')
+    stageL=(By.NAME,'stage')
+    statusL=(By.NAME,'status')
+    public_toggle=(By.XPATH,'//button[text()="Public"]')
+    save=(By.XPATH,'//button[text()="Save"]')
+    # pagelabel=(By.XPATH,'//div[text()="rrrr"]')
+
 
 class TasksLocators:
     pass

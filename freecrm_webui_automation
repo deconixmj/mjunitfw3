@@ -3,3 +3,13 @@ unittest
 parallel execution- pytest/nosetests
 selenium-grid ..browserstack.com
 reporting --unttest/pytest
+
+#######
+issue
+
+while checking for username in New Contact creation page , getting  an error sying
+
+selenium.common.exceptions.WebDriverException: Message: TypeError: node.ownerDocument is null
+
+#############
+

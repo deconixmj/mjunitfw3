@@ -1,11 +1,18 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 class Basepage:
 
     driver=""
     def __init__(self,url):
-        # self.driver=webdriver.Firefox(executable_path=r'D:\webdrivers\geckodriver.exe')  ## browser driver object
-        self.driver=webdriver.Chrome(executable_path="D:\webdrivers\88\chromedriver_win32\chromedriver.exe")
+        self.driver=webdriver.Firefox(executable_path=r'D:\webdrivers\geckodriver.exe')  ## browser driver object
+        # self.driver=webdriver.Chrome(executable_path="D:\webdrivers\88\chromedriver_win32\chromedriver.exe")
+
+        # headless chrome
+        # chrome_options = Options()
+        # chrome_options.add_argument("--headless")
+        # self.driver = webdriver.Chrome(options=chrome_options)
+
         self.driver.maximize_window()
         self.driver.get(url)
 

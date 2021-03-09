@@ -1,3 +1,10 @@
+'''
+For Contact page , all testcases can be within this same test class.
+Algnwith pom , you need to design the test cases too.
+
+
+'''
+
 import unittest
 import time
 from selenium import webdriver
@@ -31,7 +38,8 @@ class TestNewContact(unittest.TestCase):
         time.sleep(5)
 
     def test_verifyContactsPageLabel(self):
-        self.home1.click_contacts()
+        icon="Contacts"
+        self.home1.click_icons(icon)
         time.sleep(5)
         # self.base.driver.implicitly_wait(10)
 
@@ -39,10 +47,19 @@ class TestNewContact(unittest.TestCase):
         # print(x)
         self.assertEqual(x,"Contacts","You are not in Contacts page")
 
+    #pass values using ddt.data decorator
     def test_createnewcontact(self):
         self.contact.createnewcontact()
         name=self.base.driver.find_element_by_xpath('(//div/text())[3]').text
         self.assertEqual(name,'bipul talukdar',"New user not created")
+
+    def test_editcontact(self):
+        pass
+
+
+    def test_deletecontact(self):
+        pass
+
 
     def tearDown(self):
         pass
