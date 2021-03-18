@@ -20,16 +20,28 @@ class ContactsPage:
         return t1
 
 
-    def createnewcontact(self):
+    def createnewcontact(self,fname,lname,company):
         self.driver.find_element(*ContactsLocators.contactnew).click()
         time.sleep(5)
-        self.driver.find_element(*ContactsLocators.fname).send_keys("bipul")
-        self.driver.find_element(*ContactsLocators.lname).send_keys("talukdar")
-        self.driver.find_element(*ContactsLocators.comp).send_keys("tcs")
+        self.driver.find_element(*ContactsLocators.fname).send_keys(fname)
+        self.driver.find_element(*ContactsLocators.lname).send_keys(lname)
+        self.driver.find_element(*ContactsLocators.comp).send_keys(company)
         time.sleep(3)
-        opt=self.driver.find_element(*ContactsLocators.comp_search)
-        for i in opt:
-            if i.text=="tcs":
-                i.click()
+        s=self.driver.find_elements(*ContactsLocators.comp_search)
+        if len(s) == 1:
+            s[0].click()
+        else:
+            for x in range(len(s)):
+                if s[x].text == company:
+                    s[x].click()
 
         self.driver.find_element(*ContactsLocators.save).click()
+        time.sleep(3)
+
+        contact_name = fname + " " + lname
+        xpath1 = '//div[text()="{}"]'.format(contact_name)
+        name=self.driver.find_element_by_xpath(xpath1).text
+        return name
+
+    # def delete_contact(self):
+

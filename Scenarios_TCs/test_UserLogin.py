@@ -13,12 +13,16 @@ class UserLogin(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+
         url = "https://freecrm.com/"
-        base = Basepage(url)
-        home = Homepage(base.driver)
+        cls.base = Basepage(url)
+        # for cap in desired_caps:
+        #     cls.driver = webdriver.Remote(command_executor=BROWSERSTACK_URL, desired_capabilities=cap)
+        cls.base.driver.get(url)
+        cls.home = Homepage(cls.base.driver)
         # home.click_signin()
         # cls.base.driver.implicitly_wait(30)
-        cls.signin1=SignIn(base.driver)
+        cls.signin1=SignIn(cls.base.driver)
         cls.signin1.click_signin()
 
 
@@ -58,7 +62,8 @@ class UserLogin(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        quit()
+        cls.base.driver.close()
+
 
 
 

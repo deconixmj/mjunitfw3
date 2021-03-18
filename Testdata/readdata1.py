@@ -13,5 +13,5 @@ def getData1():
             data.append(sheet1.cell_value(i,j))
         entirelist.append(data)
     return entirelist
-
-# print(getData())
+#
+# print(getData1())

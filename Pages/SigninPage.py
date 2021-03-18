@@ -36,7 +36,7 @@ class SignIn:
         return t
 
     def validateHomePageTitle(self):
-        return self.driver.gettitle()
+        return self.driver.title
 
     def ValidateCRMimage(self):
         pass

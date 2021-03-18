@@ -13,3 +13,11 @@ selenium.common.exceptions.WebDriverException: Message: TypeError: node.ownerDoc
 
 #############
 
+Parallel execution locally by spawing 5-10 browser tabs / instances
+get a VM which is having 64 GB RAM, 1 tb ssd, server grade processor.
+
+200 pages , 200 testclasses for each page, each testclass contains 10 testcases i.e 2000 testcases
+10 testclasses parrallel execution =100/ 5 minutes ie 100 testcases will execute in 5 minutes
+so 2000 testcases will execute in 100 minutes ie 1.40 =~ 2 hours.
+
+############

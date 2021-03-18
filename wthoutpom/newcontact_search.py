@@ -63,7 +63,7 @@ else:
 driver.find_element_by_xpath('//button[text()="Save"]').click()
 time.sleep(4)
 
-s1=driver.find_element_by_xpath('(//div/text())[3]').text
+s1=driver.find_element_by_xpath('//div[text()="jalela1 sambar1"]').text
 
 assert s1=='jalela1 sambar1', "new contact not created"
 
