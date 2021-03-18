@@ -2,29 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="909a8b1f-86cc-4834-915a-bc9ef74c290c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Scenarios_TCs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testdata/json/contacts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grid_bs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grid_bs/grid1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nose2.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../amzn_testcases/.idea/amzn_testcases.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../amzn_testcases/.idea/amzn_testcases.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../amzn_testcases/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../amzn_testcases/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../amzn_testcases/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../amzn_testcases/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../amzn_testcases/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../amzn_testcases/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/BasePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ContactsPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ContactsPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/SigninPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/SigninPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenarios_TCs/test_CreateNewContact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenarios_TCs/test_CreateNewContact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenarios_TCs/test_UserLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenarios_TCs/test_UserLogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test-suites/testsuite1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test-suites/testsuite1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testdata/json/TitleVerification.log" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/json/TitleVerification.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testdata/json/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/json/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testdata/readdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/readdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testdata/readdata1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/readdata1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freecrm_webui_automation" beforeDir="false" afterPath="$PROJECT_DIR$/freecrm_webui_automation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wthoutpom/newcontact_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/wthoutpom/newcontact_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_Scenarios_TCs.test_UserLogin.UserLogin_2021-03-15_11-52-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_Scenarios_TCs.test_UserLogin.UserLogin_2021-03-15_19-58-59.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_Scenarios_TCs.test_UserLogin.UserLogin_2021-03-16_11-38-32.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_Scenarios_TCs.test_UserLogin.UserLogin_2021-03-16_12-54-41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_Scenarios_TCs.test_UserLogin.UserLogin_2021-03-16_12-56-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_Scenarios_TCs.test_UserLogin.UserLogin_2021-03-16_20-20-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_Scenarios_TCs.test_UserLogin.UserLogin_2021-03-18_12-30-41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-15_19-58-59.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-15_20-06-00.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-15_20-16-28.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-15_21-10-54.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-16_11-38-32.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-16_12-54-41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-16_12-56-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-16_20-20-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-16_20-32-44.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-16_21-08-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_CreateNewContact_2021-03-18_12-30-41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_DealsPage_2021-03-15_11-52-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_DealsPage_2021-03-15_19-58-59.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_DealsPage_2021-03-15_20-06-00.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_DealsPage_2021-03-15_20-16-28.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_DealsPage_2021-03-16_11-38-32.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_DealsPage_2021-03-16_12-54-41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_DealsPage_2021-03-16_12-56-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_DealsPage_2021-03-16_20-20-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestResults_setUpClass (Scenarios_TCs.test_DealsPage_2021-03-18_12-30-41.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mjunittest1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mjunittest1/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mjunittest1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mjunittest1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mjunittest1/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/../mjunittest1/Notes" afterDir="false" />
@@ -96,7 +105,7 @@
       <file leaf-file-name="testsuite1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test-suites/testsuite1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="476">
               <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -193,6 +202,11 @@
             <path>
               <item name="mjunitfw3_testsuite_nose" type="b2602c69:ProjectViewProjectNode" />
               <item name="mjunitfw3_testsuite_nose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjunitfw3_testsuite_nose" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mjunitfw3_testsuite_nose" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mjunitfw3_testsuite_nose" type="b2602c69:ProjectViewProjectNode" />
@@ -441,14 +455,14 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2872024" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.4360119" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50074404" side_tool="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49925596" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49925596" weight="0.32838285" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32838285" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39933994" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -869,7 +883,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test-suites/testsuite1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="476">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
